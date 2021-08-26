@@ -1,2 +1,2 @@
 # aerialtriangulation
-# Built by Jae Sung Kim
+Built by Jae Sung Kim
