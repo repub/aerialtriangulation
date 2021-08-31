@@ -241,7 +241,8 @@ def main():
 if __name__=="__main__":
 	main()
 
-# Parts of the codes (ORB, matching, RANSAC) are from https://github.com/opencv/opencv/blob/master/doc/py_tutorials/py_feature2d/py_matcher/py_matcher.markdown (last accessed 08/31/21)
+# Parts of the codes (ORB, matching, RANSAC) are from https://github.com/opencv/opencv/blob/master/doc/py_tutorials/py_feature2d/py_matcher/py_matcher.markdown 
+# and https://github.com/opencv/opencv/blob/master/doc/py_tutorials/py_feature2d/py_feature_homography/py_feature_homography.markdown (last accessed 08/31/21)
 # Following statement was added according to the condition (BSD-3) of opencv v.4.2.0
 
 """
