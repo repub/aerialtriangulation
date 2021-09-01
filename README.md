@@ -30,7 +30,7 @@ io_nr_template.txt\
 photo_list_template.txt\
 \
 Built by Jae Sung Kim
-\
+
 
 ## 2. Third-party dependencies required.
 
