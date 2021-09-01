@@ -1,6 +1,6 @@
 # aerialtriangulation
 
-##1. The aerialtriangulation and its file componenents.
+## 1. The aerialtriangulation and its file componenents.
 
 ao_nr_4f.py\
 ao_nr.py\
@@ -31,7 +31,8 @@ photo_list_template.txt\
 \
 Built by Jae Sung Kim
 \
-##2. Third-party dependencies required.
+\
+## 2. Third-party dependencies required.
 
 Ubuntu 20.04 3 LTS\
 Python 3.8.10\
