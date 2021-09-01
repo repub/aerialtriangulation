@@ -21,6 +21,7 @@ spaceresection_nr.py\
 spaceresection.py\
 assign_z.py\
 centroid.py\
+radial.py\
 EO_template.txt\
 control_template.txt\
 control_uncertainty_template.txt\
