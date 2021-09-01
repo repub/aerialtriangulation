@@ -3,6 +3,7 @@
 #Example of running: python3 radial.py
 #This is for estimating coefficients of radial lens distortion from old USGS camera calibration report without coefficients of radial lens distortion
 #The input parameters should be found from USGS camera calibration report and hard coded in this script.
+#Used notation (k1,k2,k3,k4) of Wolf (1983) [Wolf, P. R. (1983). Elements of Photogrammetry. 2nd Ed (pp-572-573). McGraw Hill]
 
 """
 MIT License
@@ -36,10 +37,10 @@ f = 208.043
 x0=-0.003
 y0=-0.004
 
-K0=0
 K1=0
 K2=0
 K3=0
+K4=0
 
 dist = [[-5, -7, -7, -8],
 	[-9, -6, -9, -6],
@@ -66,12 +67,12 @@ B=zeros((no_l,4))
 for i in range(no_pt):
 	dr=L[i][0]
 	r=radius[i][0]
-	FK0 = -r
-	FK1 = -r**3
-	FK2 = -r**5
-	FK3 = -r**7
+	FK1 = -r
+	FK2 = -r**3
+	FK3 = -r**5
+	FK4 = -r**7
 	f[i,:] = np.array([-dr])
-	B[i,:] = np.array([FK0,FK1,FK2,FK3])
+	B[i,:] = np.array([FK1,FK2,FK3,FK4])
 	
 
 N=matmul(matmul(B.T,WW),B)
