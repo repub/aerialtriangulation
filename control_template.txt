@@ -1,0 +1,2 @@
+point_id,X,Y,Z,line,sample,img_id,groupid
+

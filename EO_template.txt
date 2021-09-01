@@ -1,0 +1,2 @@
+image_id,XL,YL,ZL,omega,phi,kappa
+
