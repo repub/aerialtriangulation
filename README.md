@@ -31,7 +31,7 @@ photo_list_template.txt\
 \
 Built by Jae Sung Kim
 \
-\
+
 ## 2. Third-party dependencies required.
 
 Ubuntu 20.04 3 LTS\
