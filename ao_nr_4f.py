@@ -1,6 +1,7 @@
 #Created by Jae Sung Kim (Penn State University Libraries)
 #Last modified: 08/31/21
-#Example of running: python3 ao_nr_4f.py io_nr.txt fiducial_mark.txt bba_min_result.json control_1.txt ao_result_1.txt 1 2
+#Example of running: python3 ao_nr_4f.py io_nr.txt fiducial_mark.txt bba_min_result_nr_1.json control_1.txt ao_result_1.txt 1 2
+#note: "eo" in output file is "eo" from bba_min_result_nr_1.json (result of bba_minimal_nr_4f.py)
 
 """
 MIT License
