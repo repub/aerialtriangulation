@@ -30,7 +30,7 @@ io_calib_template.txt\
 io_nr_template.txt\
 photo_list_template.txt\
 \
-Built by Jae Sung Kim (repository last modified on September 01, 2021)
+Built by Jae Sung Kim (repository last modified on September 01, 2021 by Jae Sung Kim)
 
 
 ## 2. Third-party dependencies required.
